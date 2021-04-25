@@ -11,7 +11,7 @@ function App() {
       setColor('blue')
     }
     else setColor('red')
-  },[color])
+  },[count])
 
   function decreaseCount() {
     setCount(prevCount => prevCount - 1 )
